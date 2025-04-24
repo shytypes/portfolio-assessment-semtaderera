@@ -1,17 +1,24 @@
 /* remove default browser spacing*/
 
 
+
 body {
-  margin: 40px 0 0 40px;
+  margin: 10px;
   padding: 0;
   font-family: 'JetBrains Mono', monospace;
-  background-color: #35363A;
-  color: #f2eded;
+  background-color: #eff0f3;
+  color: #0e0e0e;
 }
+
+.header {
+  color: #007BFF;
+}
+
 .container {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
-  padding: 5px;
+  padding: 30px;
+  border-radius: 8px;
 
 }
 
@@ -68,10 +75,10 @@ ul {
   }
 
   .underline {
-    width: 100%;
+    width: 80%;
     height: 2px;
-    background-color: #f9f7f7;
-    margin: 10px 0;
+    background-color: #007BFF;
+    margin: 10px 0 auto;
   }
 
 .blue {
@@ -87,6 +94,7 @@ ul {
 
 .columns {
   display: flex;
+  flex-wrap: wrap;
   gap: 250px
 }
 
@@ -95,9 +103,23 @@ ul {
 }
 
 h2 {
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #0e0e0e;
+    padding: 8px 16px;
+    border-left: 5px solid #99ff00;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+  }
+  
+
+
+h2 {
   border-bottom: 2px;
   padding-bottom: 5px;
   margin-bottom: 10px;
+  display: inline-block;
+  padding: 6px 20px;
 }
 
 /*title text style*/
